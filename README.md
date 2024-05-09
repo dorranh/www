@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/de5715b8-86cf-4b23-8168-73f9734ff266/deploy-status)](https://app.netlify.com/sites/appalachian/deploys)
 
-My personal website, [`appalachian.dev`](appalachian.dev).
+My personal website, [`appalachian.dev`](https://appalachian.dev).
 
 ## Adding Content
 
