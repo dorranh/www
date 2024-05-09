@@ -1,38 +1,37 @@
-# ☕ Pacamara - a blog theme for Astro
-**Pacamara** is a simple blog theme for **Astro** that uses `md` and `mdx` files to store your content.
+# www
 
-You can see it live in action [**here**](https://pacamara-astro-6y7xr.kinsta.page/).
+[![Netlify Status](https://api.netlify.com/api/v1/badges/de5715b8-86cf-4b23-8168-73f9734ff266/deploy-status)](https://app.netlify.com/sites/appalachian/deploys)
 
-![Pacamara demo screen](https://github.com/palmiak/pacamara-astro/assets/2342458/9fbe8655-ee60-4c37-8bf3-eae0cca57d91)
+My personal website, [`appalachian.dev`](appalachian.dev).
 
-## Features
-- Dark & Light mode support
-- SEO-friendly 
-- Type-safe markdown
-- Support Astro's Assets and Collections
-- Provides RSS feed
-- Astro 3.0 Compatible
-- View Transition API compatible
+## Adding Content
 
-## Installation
-If you are reading this on GitHub, you can click on the "Use this template" button above to create a new repository on your account. Then you can do a git clone to clone it to your local system.
+Content is stored as MDX files under [`src/content`](./src/content/).
 
-Than run:
+## Development
+
+This is a fairly run-of-the-mill [Astro](https://astro.build) project which can
+be built using NPM.
+
+You can use the project's Nix flake to get a development shell with all required dependencies.
+
+```sh
+nix develop
 ```
+
+Then install the NodeJS dependencies using NPM:
+
+```sh
 npm install
+```
+
+And to launch the site locally:
+
+```sh
 npm start
 ```
 
-## Usage
-- **Pacamara** utilizes Astro Collections for blog posts, pages, and authors. You can find all of them in `src/content` folder
-- Most of the configuration is customizable via `src/config.mjs`.
-- The theme uses **TailwindCSS** - this means you can configure the colors using `tailwind.config.cjs`.
+## Credit
 
-## Kinsta Hosting
-If you are looking for a great place to host your blog, try [**Kinsta Static Site Hosting**](https://kinsta.com/static-site-hosting).
-
-## Thank you
-Without my [wife](https://agnieszkapalmowska.myportfolio.com/), this project wouldn't like half as beautiful as it looks. Also, if you are looking for an amazing designer - click the link above.
-
-## Did you enjoy this theme?
-If you don't want to miss any of the content I create, join my [weekly newsletter](https://newsletter.maciekpalmowski.dev/).
+This website was built off of the [Pacamara Astro theme](https://github.com/palmiak/pacamara-astro). Special thanks to its
+author!
