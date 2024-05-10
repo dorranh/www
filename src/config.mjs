@@ -7,6 +7,7 @@ export default {
     postsPerPage: 3,
     url: "https://www.appalachian.dev",
     social: {
+        // TODO: Add LinkedIn option
         'dribbble': false,
         'facebook': false,
         'github': 'https://github.com/dorranh',
